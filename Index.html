@@ -37,6 +37,19 @@ function changeTitle() {
                         iframe.style.width = '80%';
                         iframe.style.height = '80%';
                         iframe.style.zIndex = '9999';
+                        
+                        var otherProxie = document.getElementById('OtherProxie');
+                        iframe.setAttribute('src', 'https://sites.google.com/view/wolfunblock/home');
+                        iframe.style.position = 'fixed';
+                        iframe.style.top = '50%';
+                        iframe.style.left = '50%';
+                        iframe.style.transform = 'translate(-50%, -50%)';
+                        iframe.style.border = '2px solid red';
+                        iframe.style.width = '80%';
+                        iframe.style.height = '80%';
+                        iframe.style.zIndex = '9999';
+                        
+
                 
                         var closeButton = document.createElement('button');
                         closeButton.style.position = 'fixed';
